@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #22242A !important;
+}
+
+header nav {
+  padding: 1.2em;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul li,
+header nav ul a {
+  text-decoration: none;
+  color: #E5AA07;
+  text-transform: capitalize;
+}
+
+main section.information h1.heading {
+  font-size: 2.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+main section.information h1.heading #col-1 {
+  color: #E5AA07;
+}
+main section.information h1.heading #col-2 {
+  color: #DEDEDE;
+}
+main section.information p.sub-body {
+  font-size: 1.1rem;
+  font-weight: normal;
+  max-width: 95%;
+  padding: 1em;
+  color: #E5AA07;
+}
+main section.information div.cta {
+  background-color: #E5AA07;
+  padding: 1em;
+  max-width: 270px;
+}
+main section.information div.cta a {
+  padding: 0 2.7em;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  background-image: url("../images/Icon awesome-long-arrow-alt-right.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+main section.slider {
+  padding: 2em 0;
+}
+
+footer nav {
+  background-color: #E5AA07;
+}
+footer nav ul.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 760px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1020px) {
+  header {
+    font-size: 500;
+  }
+
+  .wrapper {
+    display: flex;
+    padding: 3em 0;
+  }
+
+  section.slider {
+    justify-content: flex-start;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
